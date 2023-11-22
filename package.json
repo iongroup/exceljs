@@ -1,6 +1,6 @@
 {
   "name": "@ionweb/exceljs",
-  "version": "4.3.0-ion1",
+  "version": "4.3.0-ion2",
   "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
   "private": false,
   "license": "MIT",
@@ -118,7 +118,7 @@
     "chai": "^4.2.0",
     "chai-datetime": "^1.7.0",
     "chai-xml": "^0.3.2",
-    "core-js": "^3.6.5",
+    "core-js": "^3.33.2",
     "dirty-chai": "^2.0.1",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.2.0",
