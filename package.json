@@ -1,6 +1,6 @@
 {
   "name": "@ionweb/exceljs",
-  "version": "4.3.0-ion3",
+  "version": "4.3.0-ion4",
   "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
   "private": false,
   "license": "MIT",
@@ -11,6 +11,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/exceljs/exceljs.git"
+  },
+  "publishConfig": {
+    "registry": "http://pinexus01.iontrading.com/nexus/repository/npm-private/"
   },
   "engines": {
     "node": ">=8.3.0"
@@ -96,7 +99,7 @@
     "pageSetup"
   ],
   "dependencies": {
-    "archiver": "^5.0.0",
+    "archiver": "7.0.1",
     "dayjs": "^1.8.34",
     "fast-csv": "^4.3.1",
     "jszip": "^3.10.1",
