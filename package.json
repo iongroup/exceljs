@@ -1,6 +1,6 @@
 {
   "name": "@ionweb/exceljs",
-  "version": "4.3.0-ion5",
+  "version": "4.3.0-ion6",
   "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
   "private": false,
   "license": "MIT",
@@ -148,5 +148,8 @@
     "sax": "^1.2.4",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
+  },
+  "overrides": {
+    "umd": "npm:@ionweb/umd@3.0.3-ion1"
   }
 }
